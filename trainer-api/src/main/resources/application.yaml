@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    password: HaukqMCWUbNWa3gwO7y-wFxQygoyN6V0
+    username: tvxuudda
+    url: jdbc:postgresql://heffalump.db.elephantsql.com:5432/tvxuudda
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+springdoc:
+  swagger-ui:
+    path: /swagger
